@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Montserrat&family=Ubuntu&display=swap');
+
+html,
+body,
+*,
+*::after
+*::before{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(253.31deg, rgba(101, 150, 244, 0.85) 0.24%, rgba(0, 255, 224, 0.67) 100%);
+    margin: -10px;
+
+}
+.window{
+    background: linear-gradient(253.31deg, rgba(0, 22, 64, 0.85) 0.24%, #045B51 100%);
+    width: 100vw;
+    margin: 100px;
+    height: 450px;
+}
+.bigbox{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+    
+.box{
+    background: linear-gradient(180deg, #000B0E 0%, #012D3A 100%);
+    color: white;
+    height: 15rem;
+    width: 20rem;
+    border-radius: 20px;
+    padding: 8px;
+    overflow-y: hidden;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Crimson Text', serif;
+}
+p{
+    font-size: 20px;
+    line-height: 2rem;
+}
